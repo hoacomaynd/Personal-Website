@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <img src="im1.jpg" alt="Profile Picture" />
+        <h1>DOAN DUC MINH</h1>
+        <p>Embedded Software</p>
+      </section>
+      <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+          My name is Doan Duc Minh, and I am currently a 4th-year student
+          majoring in Electronics and Telecommunication Engineering at Ho Chi
+          Minh City University of Technology and Education.
+        </p>
+      </section>
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <i class="fab fa-html5"></i>
+            <span>HTML5</span>
+          </li>
+          <li>
+            <i class="fab fa-css3-alt"></i>
+            <span>CSS3</span>
+          </li>
+          <li>
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+          </li>
+        </ul>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+          <img
+            src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-icon.png "
+            alt="Project 1"
+          />
+          <h3>Project 1</h3>
+          <p>Ex: Code Along - Google Landing Page</p>
+        </div>
+      </section>
+      <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+          <h3>Job Title</h3>
+          <p>Company Name</p>
+          <p>Start Date - End Date</p>
+        </div>
+        <div class="experience-item">
+          <h3>Job Title</h3>
+          <p>Company Name</p>
+          <p>Start Date - End Date</p>
+        </div>
+      </section>
+      <section class="testimonials" id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+          <cite>- Daniela, designer:</cite>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            <p>
+              "I had the pleasure of working with Ingo and am impressed by his
+              expertise in web development. He is not only technically skilled,
+              but also conceptually strong. I find it particularly impressive
+              that Ingo can come up with a solution for every problem. Last but
+              not least, he is characterized by his strong commitment to
+              sustainability. I can therefore highly recommend him!"
+            </p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
